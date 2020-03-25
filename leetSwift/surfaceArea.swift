@@ -42,11 +42,20 @@ class surfaceArea {
         var result = 0
         for i in 0..<grid.count {
             for j in 0..<grid.count {
-                result += grid[i][j] == 0 ? 0 : grid[i][j] << 2 + 2
-                result -= i == 0 ? 0 : min(grid[i - 1][j], grid[i][j]) << 1
-                result -= j == 0 ? 0 : min(grid[i][j - 1], grid[i][j]) << 1
+                guard grid[i][j] > 0 else {
+                    continue
+                }
+                result += grid[i][j] * 4  + 2
+                if i > 0 {
+                    result -= min(grid[i - 1][j], grid[i][j]) * 2
+                    
+                }
+                if j > 0 {
+                    result -= min(grid[i][j - 1], grid[i][j]) * 2
+                }
             }
         }
         return result
+        
     }
 }
