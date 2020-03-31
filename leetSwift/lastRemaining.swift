@@ -22,7 +22,7 @@
 // 可以推出 x 在删减前后两个序列中的位置编号关系为 f(n, m) = (f(n-1, m) + m) % n
 // 当删减到最后一个元素是，其位置编号一定为 0，即f(1, m) = 0
 
-class Solution {
+class lastRemaining {
     func lastRemaining(_ n: Int, _ m: Int) -> Int {
         var lastStanding = 0
         for i in 2 ... n {
