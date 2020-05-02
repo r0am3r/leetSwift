@@ -16,4 +16,5 @@ var arr = [7889,25359,23384,19645,10733,22900,4188,234,18946,8719,4741,5053,1416
 //print(surfaceArea().surfaceArea([[1,0],[0,2]]))
 //print(sortArray().sortArray([-2,3,-5]))
 //print(trap().trap([0,1,0,2,1,0,1,3,2,1,2,1]))
-_ = Permute().permute([1,2,3])
+//_ = Permute().permute([1,2,3])
+print(lengthOfLongestSubstring().lengthOfLongestSubstring("tmmzuxt"))
