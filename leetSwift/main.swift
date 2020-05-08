@@ -18,5 +18,6 @@ var arr = [7889,25359,23384,19645,10733,22900,4188,234,18946,8719,4741,5053,1416
 //print(trap().trap([0,1,0,2,1,0,1,3,2,1,2,1]))
 //_ = Permute().permute([1,2,3])
 //print(lengthOfLongestSubstring().lengthOfLongestSubstring("tmmzuxt"))
-//Jump().jump([1,23,4,0,3])
+Jump().jump([1,23,4,0,3])
 _ = BST().isValidBST(nil)
+_ = MaximalSquare().maximalSquare([[]])
