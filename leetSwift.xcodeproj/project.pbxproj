@@ -41,6 +41,8 @@
 		C400826824A4BE14003B099F /* jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400824624A4BE14003B099F /* jump.swift */; };
 		C400826924A4BE14003B099F /* levelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400824724A4BE14003B099F /* levelOrder.swift */; };
 		C400826A24A4BE14003B099F /* reverseKGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400824824A4BE14003B099F /* reverseKGroup.swift */; };
+		C400826C24A4C22C003B099F /* wordBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400826B24A4C22C003B099F /* wordBreak.swift */; };
+		C400826E24A519DF003B099F /* removeDuplicateNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400826D24A519DF003B099F /* removeDuplicateNodes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +93,8 @@
 		C400824624A4BE14003B099F /* jump.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jump.swift; sourceTree = "<group>"; };
 		C400824724A4BE14003B099F /* levelOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = levelOrder.swift; sourceTree = "<group>"; };
 		C400824824A4BE14003B099F /* reverseKGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reverseKGroup.swift; sourceTree = "<group>"; };
+		C400826B24A4C22C003B099F /* wordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordBreak.swift; sourceTree = "<group>"; };
+		C400826D24A519DF003B099F /* removeDuplicateNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicateNodes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 				C400823B24A4BE13003B099F /* surfaceArea.swift */,
 				C400823724A4BE13003B099F /* trap.swift */,
 				C400823224A4BE13003B099F /* twoSum.swift */,
+				C400826B24A4C22C003B099F /* wordBreak.swift */,
+				C400826D24A519DF003B099F /* removeDuplicateNodes.swift */,
 			);
 			path = leetSwift;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 				C400825624A4BE14003B099F /* MinStack.swift in Sources */,
 				C400826724A4BE14003B099F /* main.swift in Sources */,
 				C400825B24A4BE14003B099F /* numRookCaptures.swift in Sources */,
+				C400826C24A4C22C003B099F /* wordBreak.swift in Sources */,
 				C400826124A4BE14003B099F /* minDistance.swift in Sources */,
 				C400824C24A4BE14003B099F /* isHappy.swift in Sources */,
 				C400824924A4BE14003B099F /* mincostTickets.swift in Sources */,
@@ -241,6 +248,7 @@
 				C400826A24A4BE14003B099F /* reverseKGroup.swift in Sources */,
 				C400825F24A4BE14003B099F /* lengthOfLongestSubstring.swift in Sources */,
 				C400824E24A4BE14003B099F /* subarraySum.swift in Sources */,
+				C400826E24A519DF003B099F /* removeDuplicateNodes.swift in Sources */,
 				C400825924A4BE14003B099F /* trap.swift in Sources */,
 				C400825C24A4BE14003B099F /* gameOfLife.swift in Sources */,
 				C400825A24A4BE14003B099F /* minIncrementForUnique.swift in Sources */,
