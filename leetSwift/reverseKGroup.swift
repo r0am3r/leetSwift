@@ -34,7 +34,7 @@ class ReverseKGroup {
     }
 
    func reverseKGroup(_ head: ListNode?, _ k: Int) -> ListNode? {
-        var s: ListNode? = ListNode.init(0)
+        let s: ListNode? = ListNode.init(0)
         s!.next = head
         var pre: ListNode? = s
         var end: ListNode? = s
@@ -46,8 +46,8 @@ class ReverseKGroup {
                 count += 1
             }
             if (end == nil) {break}
-            var start: ListNode? = pre!.next
-            var next: ListNode? = end!.next
+            let start: ListNode? = pre!.next
+            let next: ListNode? = end!.next
             end!.next = nil
             pre!.next = reverse(start)
             start!.next = next

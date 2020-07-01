@@ -22,3 +22,4 @@ var arr = [7889,25359,23384,19645,10733,22900,4188,234,18946,8719,4741,5053,1416
 //_ = BST().isValidBST(nil)
 //_ = MaximalSquare().maximalSquare([[]])
 //_ = WordBreak().wordBreak("helloworld", ["hello", "world", "ha",])
+_ = FindLength().findLength([1,2,3,2,1], [3,2,1,4,7])

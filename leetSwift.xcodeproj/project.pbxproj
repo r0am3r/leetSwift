@@ -43,6 +43,7 @@
 		C400826A24A4BE14003B099F /* reverseKGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400824824A4BE14003B099F /* reverseKGroup.swift */; };
 		C400826C24A4C22C003B099F /* wordBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400826B24A4C22C003B099F /* wordBreak.swift */; };
 		C400826E24A519DF003B099F /* removeDuplicateNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400826D24A519DF003B099F /* removeDuplicateNodes.swift */; };
+		C424EF9624ACD9B5007CBAFD /* findLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = C424EF9524ACD9B5007CBAFD /* findLength.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +96,7 @@
 		C400824824A4BE14003B099F /* reverseKGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reverseKGroup.swift; sourceTree = "<group>"; };
 		C400826B24A4C22C003B099F /* wordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordBreak.swift; sourceTree = "<group>"; };
 		C400826D24A519DF003B099F /* removeDuplicateNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicateNodes.swift; sourceTree = "<group>"; };
+		C424EF9524ACD9B5007CBAFD /* findLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findLength.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				C400823224A4BE13003B099F /* twoSum.swift */,
 				C400826B24A4C22C003B099F /* wordBreak.swift */,
 				C400826D24A519DF003B099F /* removeDuplicateNodes.swift */,
+				C424EF9524ACD9B5007CBAFD /* findLength.swift */,
 			);
 			path = leetSwift;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C400825D24A4BE14003B099F /* surfaceArea.swift in Sources */,
+				C424EF9624ACD9B5007CBAFD /* findLength.swift in Sources */,
 				C400826024A4BE14003B099F /* maximalSquare.swift in Sources */,
 				C400824F24A4BE14003B099F /* singleNumber.swift in Sources */,
 				C400826624A4BE14003B099F /* subarraysDivByK.swift in Sources */,
